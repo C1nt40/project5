@@ -1,0 +1,216 @@
+/* HOMEPAGE STYLE HERE */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Dancing+Script&family=Great+Vibes&family=Pacifico&family=Quicksand&family=Qwitcher+Grypen&family=Sacramento&family=Satisfy&family=Sedgwick+Ave+Display&family=Special+Elite&family=Tulpen+One&display=swap');
+
+#home-body {
+    background-image: url('https://images.unsplash.com/photo-1510016858333-dd502bf57837?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size:cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: minmax(auto, auto);
+    grid-template-columns: minmax(150px, auto);
+    grid-template-areas: 
+      'header header'
+      'left right'
+      'footer footer';
+}
+  
+.grid-item {
+    padding: 25px;
+}
+  
+.header {
+    grid-area: header;
+    margin: 0%;
+    padding: 0%;
+    background-color: #fff;
+}
+  
+.left {
+    grid-area: left;
+}
+  
+.middle {
+    grid-area: middle;
+}
+  
+.right {
+    grid-area: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.footer {
+    grid-area: footer;
+}
+
+.navigation-flexbox-header-container {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+    font-family: 'Tulpen One', cursive;
+    font-size: 30px;
+}
+
+.navigation-flexbox-header {
+    text-decoration: none;
+    color: #000;
+    transition-duration: 0.3s;
+}
+
+.navigation-flexbox-header:hover {
+    color: #f25278;
+    border-style: none none solid none;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    color: #f25278;
+    padding: 0%;
+    margin: 0%;
+    line-height: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #000;
+    font-family: 'Tulpen One', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0%;
+    margin: 0%;
+}
+
+span:not(.button-subscribe, .pink) {
+    background-color: #f25278;
+    color: #fff;
+}
+
+.flexbox-container-social-media {
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+.social-media {
+    color: #f25278;
+    font-size: 30px;
+    margin: 0 5px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+  
+.social-media:hover {
+    color: #fff;
+}
+
+  
+.button-button {
+    font-family: 'Tulpen One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    background-color: #f25278;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    border: none;
+    text-align: center;
+    display: flex;
+} 
+  
+.button-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+  
+.button-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.button-button span::after {
+    content: '\203A';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button-button:hover span {
+    padding-right: 25px;
+}
+  
+.button-button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+
+.quote-kings {
+    font-family: 'Tulpen One', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.author-quote-kings {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+    color: #f25278;
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* BLOG PAGE STYLE HERE */
+
+#blog-body {
+    background-image: url('https://images.unsplash.com/photo-1509239767605-0703ef611f08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size:cover;
+}
+
+
+/* ABOUT PAGE STYLE HERE */
+#about-body {
+    background-image: url('https://images.unsplash.com/photo-1509239767605-0703ef611f08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size:cover;
+}
+
+.about-me {
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 55px;
+    font-family: 'Tulpen One', cursive;
+    color: #fff;
+}
+      
+.about-me::first-line {
+    font-weight: bold;
+}
+
+.do {
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 55px;
+    font-family: 'Tulpen One', cursive;
+    color: #fff;
+}
+
+.pink {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 60px;
+    color: #f25278;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+
+}
