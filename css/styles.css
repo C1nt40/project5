@@ -171,10 +171,53 @@ span:not(.button-subscribe, .pink) {
     margin: 0%;
 }
 
+/* CONTACT PAGE STYLE HERE */
+
+#contact-body {
+    background-image: url('https://images.unsplash.com/photo-1582655372998-fd11f2114b1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size:cover;
+}
+
 /* BLOG PAGE STYLE HERE */
 
-#blog-body {
-    background-image: url('https://images.unsplash.com/photo-1509239767605-0703ef611f08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+.picture-of-me {
+    float: left;
+    max-width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-style: none solid none solid;
+    border-color: #f25278;
+}
+
+.picture-of-man {
+    max-width: 40%;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 10px;
+    border-style: none solid none solid;
+    border-color: #f25278;
+}
+
+.quote1, .quote2 {
+    font-family: 'Tulpen One', cursive;
+    font-size: 50px;
+    color: #000;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.author-quote-1-2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+    color: #f25278;
+    text-align: right;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* RESUME PAGE STYLE HERE */
+#resume-body {
+    background-image: url('https://images.unsplash.com/photo-1619783159677-60ebf3d8708d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80');
     background-size:cover;
 }
 
@@ -212,5 +255,4 @@ span:not(.button-subscribe, .pink) {
     text-align: center;
     padding: 0%;
     margin: 0%;
-
 }
